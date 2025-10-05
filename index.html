@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BloxFights.com</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: url('https://i.imgur.com/YourBackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.8);
+  padding: 15px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 10px #ff0000;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.2em;
+  color: #ffd700;
+  text-shadow: 1px 1px 3px #000;
+  margin: 5px 0 0 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2em;
+  text-shadow: 2px 2px 8px #000;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+  gap: 25px;
+}
+
+.style-card {
+  background: rgba(0,0,0,0.85);
+  border-radius: 20px;
+  width: 260px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 15px #ff00ff, 0 0 30px #00ffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.style-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 50px #ff00ff, 0 0 60px #00ffff;
+}
+
+.style-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 3px solid #fff;
+}
+
+.style-card h2 {
+  margin: 12px 0;
+  font-size: 1.6em;
+  color: #ffd700;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.style-card p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.price {
+  color: #00ffea;
+  font-weight: bold;
+}
+
+.requirements {
+  background: rgba(255,255,255,0.1);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+ul {
+  padding-left: 20px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0,0,0,0.8);
+  margin-top: 40px;
+  font-size: 1em;
+  color: #ffd700;
+  text-shadow: 1px 1px 3px #000;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/YourLogo.png" alt="BloxFights Logo">
+  <div>
+    <h1>BloxFights.com</h1>
+    <p>Your ultimate Blox Fruits fighting styles guide</p>
+  </div>
+</header>
+
+<!-- First Sea -->
+<h2 class="section-title">🌊 First Sea</h2>
+<div class="container">
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourCombat.png" alt="Combat">
+    <h2>Combat</h2>
+    <p class="price">Free</p>
+    <div class="requirements">
+      <p>Location: Starter</p>
+      <ul><li>Unlocked by default</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourDarkStep.png" alt="Dark Step">
+    <h2>Dark Step</h2>
+    <p class="price">$150,000</p>
+    <div class="requirements">
+      <p>Location: Pirate Village</p>
+      <ul><li>No extra requirements</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourElectric.png" alt="Electric">
+    <h2>Electric</h2>
+    <p class="price">$500,000</p>
+    <div class="requirements">
+      <p>Location: Skylands Bottom</p>
+      <ul><li>No extra requirements</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourWaterKungFu.png" alt="Water Kung Fu">
+    <h2>Water Kung Fu</h2>
+    <p class="price">$750,000</p>
+    <div class="requirements">
+      <p>Location: Underwater City</p>
+      <ul><li>No extra requirements</li></ul>
+    </div>
+  </div>
+</div>
+
+<!-- Second Sea -->
+<h2 class="section-title">🌟 Second Sea</h2>
+<div class="container">
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourDragonBreath.png" alt="Dragon Breath">
+    <h2>Dragon Breath</h2>
+    <p class="price">1,500 Fragments</p>
+    <div class="requirements">
+      <p>Location: Kingdom of Rose</p>
+      <ul><li>No extra requirements</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourSuperhuman.png" alt="Superhuman">
+    <h2>Superhuman</h2>
+    <p class="price">$3,000,000</p>
+    <div class="requirements">
+      <p>Location: Martial Arts Master</p>
+      <ul><li>Mastery 300 in Dark Step, Electric, Water Kung Fu, Dragon Breath</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourDeathStep.png" alt="Death Step">
+    <h2>Death Step</h2>
+    <p class="price">$2,500,000 + 5,000 Fragments</p>
+    <div class="requirements">
+      <p>Location: Phoeyu</p>
+      <ul><li>Mastery 400 in Dark Step</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourSharkmanKarate.png" alt="Sharkman Karate">
+    <h2>Sharkman Karate</h2>
+    <p class="price">$2,500,000 + 5,000 Fragments</p>
+    <div class="requirements">
+      <p>Location: Daigrock</p>
+      <ul><li>Mastery 400 in Water Kung Fu</li></ul>
+    </div>
+  </div>
+</div>
+
+<!-- Third Sea -->
+<h2 class="section-title">⚡ Third Sea</h2>
+<div class="container">
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourElectricClaw.png" alt="Electric Claw">
+    <h2>Electric Claw</h2>
+    <p class="price">$3,000,000 + 5,000 Fragments</p>
+    <div class="requirements">
+      <p>Location: Former Hero</p>
+      <ul><li>Mastery 400 in Electric</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourDragonTalon.png" alt="Dragon Talon">
+    <h2>Dragon Talon</h2>
+    <p class="price">$3,000,000 + 5,000 Fragments</p>
+    <div class="requirements">
+      <p>Location: Uzoth</p>
+      <ul><li>Mastery 400 in Dragon Breath</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourGodhuman.png" alt="Godhuman">
+    <h2>Godhuman</h2>
+    <p class="price">$5,000,000 + 5,000 Fragments</p>
+    <div class="requirements">
+      <p>Location: Ancient Monk</p>
+      <ul><li>Mastery 400 in Superhuman + all V2 Fighting Styles</li></ul>
+    </div>
+  </div>
+  <div class="style-card">
+    <img src="https://i.imgur.com/YourSanguineArt.png" alt="Sanguine Art">
+    <h2>Sanguine Art</h2>
+    <p class="price">$5,000,000 + 5,000 Fragments</p>
+    <div class="requirements">
+      <p>Location: Bloodthirsty Monk</p>
+      <ul><li>Mastery 400 in Superhuman + all V2 Fighting Styles</li></ul>
+    </div>
+  </div>
+</div>
+
+<footer>
+© 2025 BloxFights.com | All rights reserved
+</footer>
+
+</body>
+</html>
